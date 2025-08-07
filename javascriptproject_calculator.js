@@ -1,11 +1,3 @@
-/*
-CODE THAT HELPS YOU TAKE IN INPUT FROM THE VSCODE TERMINAL(WHICH SEEMS LESS COMMON WHILE USING JAVASCRIPT)
-const prompt = require('prompt-sync')();
-let username = prompt("What is your name? ");
-console.log(`Hello, ${username}`);
-
-*/
-
 const prompt = require('prompt-sync')();
 let number = [];
 let operands = [];
