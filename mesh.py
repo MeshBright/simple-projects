@@ -1,6 +1,9 @@
-list_a = [1,2,3,4]
-list_b = list_a[0:]
+def purchased_food_items(item, list=None):
+    if list is None:
+        list = []
+    list.append(item)
+    return list
 
-list_b.append(5)
-print(list_a)
-print(list_b)
+shopping_bag_1 = purchased_food_items("Apple")
+
+print(purchased_food_items("Orange", shopping_bag_1))
