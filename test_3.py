@@ -1,0 +1,1 @@
+print("People say that Pluto is not a true planet")
