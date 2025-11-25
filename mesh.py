@@ -3,3 +3,4 @@ list_b = list_a[0:]
 
 list_b.append(5)
 print(list_a)
+print(list_b)
